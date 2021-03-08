@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/css/App.scss'
+import globe from './assets/images/svg/shutterstock_355866386 1.svg'
+import whiteEllipse from './assets/images/svg/Ellipse 9.svg'
+import greyEllipse from './assets/images/svg/Ellipse 8.svg'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="title">
+        Welcome to the Hive.
+      </div>
+      <img src={greyEllipse} alt="" className="grey-ellipse"/>
+      <img src={whiteEllipse} alt="" className="white-ellipse"/>
+      <img src={globe} alt="globe" className="globe"/>
     </div>
   );
 }

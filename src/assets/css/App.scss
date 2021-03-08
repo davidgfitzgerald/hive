@@ -1,0 +1,40 @@
+.title {
+  position: absolute;
+  width: 495px;
+  height: 241px;
+  left: 90px;
+  top: 170px;
+
+  font-family: Lexend Deca, cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 80px;
+
+}
+
+.globe {
+  position: absolute;
+  width: 1170px;
+  height: 1170px;
+  left: 449px;
+  top: 39px;
+
+  mix-blend-mode: multiply;
+}
+
+.white-ellipse {
+  position: absolute;
+  width: 958px;
+  height: 958px;
+  left: 556px;
+  top: 144px;
+}
+
+.grey-ellipse {
+  position: absolute;
+  width: 1146px;
+  height: 1147px;
+  left: 462px;
+  top: 49px;
+}
