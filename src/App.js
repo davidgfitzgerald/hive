@@ -2,10 +2,12 @@ import './assets/css/App.scss'
 import globe from './assets/images/svg/shutterstock_355866386 1.svg'
 import whiteEllipse from './assets/images/svg/Ellipse 9.svg'
 import greyEllipse from './assets/images/svg/Ellipse 8.svg'
+import NavBar from "./components/nav/NavBar";
 
 function App() {
   return (
     <div className="App">
+      <NavBar/>
       <div className="title">
         Welcome to the Hive.
       </div>
